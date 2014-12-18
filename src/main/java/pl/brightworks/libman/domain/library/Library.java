@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Library {
 
+    private Long id;
     private String name;
     private List<LibraryItem> libraryItems = new ArrayList<>();
 
@@ -20,5 +21,10 @@ public class Library {
 
     public String getName() {
         return name;
+    }
+
+    public Library id(Long id) {
+        this.id = id;
+        return this;
     }
 }

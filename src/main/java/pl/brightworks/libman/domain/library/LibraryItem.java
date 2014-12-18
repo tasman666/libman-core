@@ -2,7 +2,7 @@ package pl.brightworks.libman.domain.library;
 
 import pl.brightworks.libman.domain.book.Book;
 
-public class LibraryItem {
+class LibraryItem {
     private final Book book;
     private final Place place;
 

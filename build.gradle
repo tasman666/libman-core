@@ -1,6 +1,5 @@
 apply plugin: 'java'
-
-version = '1.0'
+apply plugin: 'idea'
 
 repositories {
     mavenCentral()
